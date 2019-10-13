@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maria/projects/TIIT/2nd-term/min-cut/ai-master/semester-2/oaip/lab02/src/main.cpp
+wchar.h
+-
+vector
+-
+array
+-
+algorithm
+-
+set
+-
+random
+-
+iostream
+-
+

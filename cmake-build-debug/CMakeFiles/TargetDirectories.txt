@@ -1,0 +1,3 @@
+/home/maria/projects/TIIT/2nd-term/min-cut/ai-master/semester-2/oaip/lab02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maria/projects/TIIT/2nd-term/min-cut/ai-master/semester-2/oaip/lab02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maria/projects/TIIT/2nd-term/min-cut/ai-master/semester-2/oaip/lab02/cmake-build-debug/CMakeFiles/bin/lab02.dir

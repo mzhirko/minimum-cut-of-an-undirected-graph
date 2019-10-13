@@ -1,0 +1,41 @@
+graph {
+0 -- 1[label=1];
+0 -- 2[label=1];
+0 -- 3[label=1];
+0 -- 4[label=1];
+0 -- 5[label=1];
+0 -- 7[label=1];
+0 -- 9[label=1];
+1 -- 3[label=1];
+1 -- 4[label=1];
+2 -- 3[label=1];
+2 -- 4[label=1];
+2 -- 6[label=1];
+2 -- 7[label=1];
+2 -- 9[label=1];
+3 -- 4[label=1];
+3 -- 7[label=1];
+3 -- 8[label=1];
+4 -- 7[label=1];
+4 -- 9[label=1];
+5 -- 6[label=1];
+5 -- 7[label=1];
+6 -- 7[label=1];
+7 -- 9[label=1];
+
+subgraph cluster_R { 
+label = " Min cut: 1";
+rankdir = LR;8 [style=filled,color=red];
+}
+subgraph cluster_M { 
+0 [style=filled,color=gray];
+1 [style=filled,color=gray];
+2 [style=filled,color=gray];
+3 [style=filled,color=gray];
+4 [style=filled,color=gray];
+5 [style=filled,color=gray];
+6 [style=filled,color=gray];
+7 [style=filled,color=gray];
+9 [style=filled,color=gray];
+}
+}
