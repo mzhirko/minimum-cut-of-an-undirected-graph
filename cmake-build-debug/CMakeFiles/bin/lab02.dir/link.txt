@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wall  -rdynamic CMakeFiles/bin/lab02.dir/src/main.cpp.o  -o bin/lab02 

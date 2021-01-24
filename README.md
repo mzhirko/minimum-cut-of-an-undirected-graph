@@ -1,5 +1,9 @@
 # Minimum cut of an undirected graph
-To run this application in Terminal it's better to use terminal edition of a code.\
+The Stoer-Wagner min cut algorithm determines a min-cut and the min-cut weight of a connected, undirected graph.
+
+A cut of a graph G is a partition of the vertices into two, non-empty sets. The weight of such a partition is the number of edges between the two sets if G is unweighted, or the sum of the weights of all edges between the two sets if G is weighted. A min-cut is a cut having the least weight. 
+
+In this work you can find demonstrative realization of min-cut algorithm. It generates png image of graph using graphviz tool. \
 So, you're gonna need to use following commands after cloning the repo:
 ```Terminal
 cd ./terminal-edition
@@ -25,7 +29,9 @@ To remove test images (**.png** files), type
 ```Terminal
 rm *.png
 ```
-You also can view source code in **./src** folder.\
-...and execute it in CMake (like, in the main folder)\
+You also can view the source code in **./src** folder.\
+### Demo:
+Result of the program work should look similar to that image.
+![minimum cut - Animated gif demo](terminal-edition/7789.png) 
 *That's about all* :octocat: :two_hearts:
 
